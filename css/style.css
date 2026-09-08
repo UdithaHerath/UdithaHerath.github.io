@@ -431,6 +431,38 @@ h2 span {
     font-size: 13px
 }
 
+.certificate-project strong {
+    color: var(--light)
+}
+
+.certificate-placeholder {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-top: 24px;
+    padding: 18px;
+    border: 1px solid #4a4a45;
+    background: #181817;
+    color: var(--light)
+}
+
+.certificate-placeholder span,
+.certificate-placeholder small {
+    font: 500 10px 'DM Mono', monospace;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: .08em
+}
+
+.certificate-placeholder strong {
+    font-size: 17px
+}
+
+.certificate-placeholder small {
+    margin-top: 6px;
+    color: #777
+}
+
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

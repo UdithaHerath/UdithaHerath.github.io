@@ -19,3 +19,4 @@ document.querySelectorAll('.nav-links a[href^="#"]').forEach((link) => {
     links?.classList.remove('open');
   });
 });
+

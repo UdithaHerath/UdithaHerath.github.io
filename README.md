@@ -1,12 +1,30 @@
 # Uditha Herath — Personal Portfolio
 
-## Open in Visual Studio Code
-1. Extract the ZIP file.
-2. Open the extracted `uditha_portfolio` folder in Visual Studio Code.
-3. Open `index.html` in a browser, or install the VS Code **Live Server** extension and choose **Open with Live Server**.
+Personal portfolio website, live at: https://udithaherath.github.io/
 
-## Structure
+## Tech Stack
+
+- HTML
+- CSS (responsive design)
+- JavaScript (mobile navigation)
+
+## Project Structure
+
 - `index.html` — portfolio content
 - `css/style.css` — responsive styling
 - `js/script.js` — mobile navigation
 - `assets/Uditha_CV.pdf` — CV download
+
+## How to Run Locally
+
+```bash
+git clone https://github.com/UdithaHerath/UdithaHerath.github.io.git
+cd UdithaHerath.github.io
+```
+
+Open `index.html` in a browser, or use the VS Code **Live Server** extension.
+
+## Editing
+
+The site is served by GitHub Pages from the `main` branch. Any change pushed
+to `main` goes live automatically.
